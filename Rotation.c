@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-		int n,s,r;
+		int n,s,i,r;
 		scanf("%d%d",&n,&s);
 		for(i=0;i<s;i++){
 				r=n%10000;
