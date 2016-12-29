@@ -2,9 +2,9 @@
 #include<string.h>
 int main()
 {
-    int i=0,f=1,l;
-    char s[10],r;
-    scanf("%s",&n);
+    int i,j,l;
+    char n[10],r;
+    scanf("%s",n);
     l=strlen(n);
     for(i=0;i<l-1;i++)
     {
