@@ -10,9 +10,9 @@ int main()
         a[l++]=n%10;
         n=n/10;
     } 
-    for(i=0;i<l-1;i++)
+    for(i=0;i<l;i++)
     {
-        for(j=i+1;j<l-1;j++)
+        for(j=i+1;j<l;j++)
         {
             if(a[i]>a[j])
             {
@@ -22,7 +22,7 @@ int main()
             }
         }
     }
-    for(i=0;i<l-1;i++)
+    for(i=0;i<l;i++)
         printf("%d",a[i]);
     return 0;
 }
