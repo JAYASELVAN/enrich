@@ -10,7 +10,7 @@ int main()
         a[l++]=n%10;
         n=n/10;
     } 
-    for(i=0;i<l;i++)
+    for(i=0;i<l-1;i++)
     {
         for(j=i+1;j<l;j++)
         {
