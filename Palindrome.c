@@ -13,6 +13,6 @@ int main()
     if(i==s)
         printf("Yes");
     else
-        printf(No");
+        printf("No");
     return 0;
 }
