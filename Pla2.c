@@ -3,8 +3,8 @@
 int main()
 {
     int i=0,r,f=1,l;
-    char s[10];
-    scanf("%s",&n);
+    char n[10];
+    scanf("%s",n);
     l=strlen(n);
     for(i=0;i<l/2;i++)
     {
