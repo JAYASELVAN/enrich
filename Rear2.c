@@ -22,8 +22,10 @@ int main()
             }
         }
     }
+    n=0;
     for(i=0;i<l;i++)
-        printf("%d",a[i]);
+        n=(n*10)+a[i];
+    printf("%d",n);
     return 0;
 }
     
