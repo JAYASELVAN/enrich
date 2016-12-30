@@ -14,7 +14,7 @@ void rem(int n)
 int main()
 {
     int i;
-    scanf("%s",a);
+    scanf("%[^\n]s",a);
     l=strlen(a);
     for(i=0;i<l;i++)
     {
@@ -24,7 +24,7 @@ int main()
                 rem(i--);
         }
         else
-                rem(i);
+                rem(i--);
      }
      printf("%s",a);
      return 0;
