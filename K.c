@@ -4,6 +4,7 @@ int main()
     int n,m,k,i,j,a[10][10];
     scanf("%d%d%d",&n,&m,&k);
     for(i=0;i<n;i++)
+    {
         for(j=0;j<m;j++)
         {
             if(i+j == k)
@@ -12,5 +13,7 @@ int main()
                 a[i][j]=0;
             printf("%d ",a[i][j]);
         }
+        printf("\n");
+     }
     return 0;
 }
