@@ -8,7 +8,7 @@ int main()
     l=strlen(n);
     for(i=0;i<l-1;i++)
     {
-        for(j=i+1;j<l-1;j++)
+        for(j=i+1;j<l;j++)
         {
             if(n[i]>n[j])
             {
