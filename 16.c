@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include<conio.h>
+#include<conio>
 
 int x=2,y=1,a[4][4];
 void display()
