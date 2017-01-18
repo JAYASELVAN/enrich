@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include<conio>
+
 
 int x=2,y=1,a[4][4];
 void display()
@@ -79,7 +79,7 @@ int main()
 	}
 	do
 	{
-		clrscr();
+		
 		display();
 		printf("\n\nPress U->UP , D->Down , R->Right , L->Left , Q->Quit\nEnter a Character\n");
 		scanf("%c",ch);
