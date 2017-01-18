@@ -62,7 +62,7 @@ void left()
 int main()
 {
 	int i,j,c=1;
-	char ch='';
+	char ch;
 	for(i=5;i>1;i--)
 	{
 		for(j=0;j<4;j++)
@@ -101,5 +101,5 @@ int main()
 				return 0;
 		}
 		
-	}
+	}while(1);
 }
