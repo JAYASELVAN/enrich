@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-void print_set(int a[][],int n)
+void print_set(int a[10][10],int n)
 {
   int i,j;
   for(i=0;i<n;i++)
@@ -24,10 +24,13 @@ void main()
 	int i,n,ns=1,ai=1,j,k,f;
 	scanf("%d",&n);
 	a[0][0]=-1;
+	
 	for(i=0;i<n;i++)
 	{
 		scanf("%d",&list[i]);
 	}
+	
+	
 	for(i=0;i<n;i++)
 	{
 		for(j=0;j<ns;j++)
@@ -62,6 +65,6 @@ void main()
 		
 	}
 	
-	print_set(a[][],ns);
+	print_set(a,ns);
 	
 }
